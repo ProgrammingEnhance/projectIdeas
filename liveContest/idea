@@ -1,0 +1,33 @@
+Project idea #1
+
+TOPIC
+Develop a chrome/firefox extension which can make life of those who wish to practice problems easier.
+(In starting for codechef only, but in future to be extended for all platforms too)
+
+PHASES
+This project is sub-divided into 3 major phases, as described.
+
+PHASE1 (Codechef only)
+------------------------------------------------------------
+User can re-run any past contest
+Running a past contest would do following things :
+1. Scoreboard would move as if it is live contest. (possible using jquery/js properly)
+2. A timer would be shown in his browser at top-right which would be countdown of left time. (extension)
+3. Just like many extensions there would be button, clicking which his performance till now will be shown, i.e. which all question has done would come with a green tick, wa with red tick along with non attempted. (would contain api call on our server, which would crawl and get data. I would manage server for us, not a problem)
+4. All the problem's solution would be hidden for that contest, like it happen in real contest all. (js)
+5. User can't read editorial too which he is solving those problem. (js tweeks)
+6. User would submit using that content's url only, but manually we would redirect user's submission to same problem in practice, so user would feel as it is live contest only but in real it would be posted in problem's. (easy part using js to change form's action)
+
+PHASE 2 (Team practice)
+---------------------------------------------------------------
+Yes.. grin emoticon
+User can create contest as described in phase 1, but with creating it, user would get a ID, which he can share to all.
+Now other user can put that ID, and multi users can practice together. 
+We all know how much better our practice is, if we are also competing with our friends.
+Along with this, in this phase, we will add feature to select any 5-10 question, and start a custom contest. (scoreboard will not be there if user does so)
+
+PHASE 3 (Extension to other platforms)
+-----------------------------------------------------------------
+Yes, we need quality not quantity, so I would personally like it to be perfect for one platform, after which we can port our extension to all other platforms too.
+
+* Yes it diferent from as ahmed-ally's interface don't give this feel. And we have to manually go to all websites, etc etc. So our product would be way ahead.
